@@ -1,0 +1,17 @@
+node_modules/
+.wp-env.override.json
+02.検証成果物/
+.DS_Store
+
+# 個人用設定・認証情報
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+
+# ローカルの退避データ・ログ
+*.sql
+*.sql.gz
+*.log

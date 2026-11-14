@@ -1,0 +1,15 @@
+{
+  "name": "wordpress-local-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "wp-env start",
+    "stop": "wp-env stop",
+    "logs": "wp-env logs",
+    "env": "wp-env",
+    "seed": "wp-env run cli wp eval-file /var/www/html/seed/01.サンプル記事.php"
+  },
+  "devDependencies": {
+    "@wordpress/env": "12.1.0"
+  }
+}
